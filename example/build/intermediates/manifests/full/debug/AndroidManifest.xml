@@ -20,13 +20,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.atoken.mytaxis.splash.SplashActivity" >
+        <activity android:name="com.atoken.mytaxis.common.http.HttpActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- <activity android:name=".common.http.HttpActivity"></activity> -->
+        <activity android:name="com.atoken.mytaxis.splash.SplashActivity" />
     </application>
 
 </manifest>
